@@ -1,0 +1,12 @@
+print("masukkan panjang")
+panjang = float(input())
+print("masukkan lebar")
+lebar = float(input())
+print("masukkan tinggi")
+tinggi = float(input())
+isi = panjang * lebar * tinggi
+luasPermukaan = 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi)
+print("hasil perhitungan isi")
+print(isi)
+print("hasil perhitungan luas permukaan")
+print(luasPermukaan)
